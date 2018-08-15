@@ -23,12 +23,12 @@
 		padding: 3rem;
 	}
 
-	#card-body-map {
-		background-image: url("./images/background.jpg");
+	.text-dark-gray {
+		color: #404040
 	}
 
-	#card-body-info {
-		background-image: url("./images/background.jpg");
+	.small-text {
+		font-size: 13px;
 	}
 </style>
 
@@ -80,17 +80,16 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-			</div>
-			<div id="card-body-map" class="card-body">
+				<br/>
 				<div class="text-center"><h3>Location</h3></div>
-				<div id="map" style="width:100%;height:400px;"></div>
-			</div>
-			<div id="card-body-info" class="card-body">
-				일시 : 2018년 09월 08일 오후 12시 <br/>
-				장소 : 롯데시티호텔구로 3층 씨카페 <br/>
-				주소 : 서울특별시 구로구 디지털로 300 3층 <br/>
-				[지번] : 서울특별시 구로구 구로동 188-25 3층 <br/>
-				행사장 연락처 : 02-6210-1090
+				<div id="map" style="width:100%;height:300px;"></div>
+				<div style="padding-top:10px;">
+					일시 : 2018년 09월 08일 오후 12시 <br/>
+					장소 : 롯데시티호텔구로 3층 씨카페 <br/>
+					<span class="small-text">주소 : 서울특별시 구로구 디지털로 300</span> <br/>
+					<span class="small-text" style="padding-left:2.6em;">서울특별시 구로구 구로동 188-25</span> <br/>
+					<span class="small-text">행사장 연락처 : 02-6210-1090</span>
+				</div>
 			</div>
 		</div>
 	</div>
