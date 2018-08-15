@@ -16,65 +16,58 @@
 
 </head>
 <body>
-	<div id="wrap">
-		<div class="content_wrap">
-			<h1>
-				<img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Party-Poppers-128.png" alt="icon finder free icon" />
-				우리 아가의 돌잔치에 초대합니다
-				<img src="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack/110/Party-Poppers-128.png" alt="icon finder free icon" />
-			</h1>
-			항상 저희를 아껴주시고, 응원해 주시는 분들께<br />
-			감사의 말씀을 드립니다.<br />
-			소중한 분들께 조금이나마 보답하고자,<br />
-			우리 아가의 첫번째 돌잔치에 초대장을 보내드립니다.<br />
-			아무쪼록 오셔서 자리를 빛내 주셨으면 좋겠습니다.
-		</div>
-		<br />
-		<div class="slide_wrap">
-			<div id="autoplay" style="display:none;">
-				<!-- //이미지 추가 -->
-				<img src="./images/1.jpg" class="img100" />
-				<img src="./images/2.jpg" class="img100" />
-				<img src="./images/3.jpg" class="img100" />
+	<div class="container">
+		<div class="card">
+			<img class="card-img-top" src="./images/top.jpg" alt="Card image cap">
+			<div class="card-body">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+						<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="./images/img1.jpg" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./images/img2.jpg" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./images/img3.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./images/img4.jpg" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./images/img5.jpg" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./images/img6.jpg" alt="Third slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./images/img7.jpg" alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					</div>
 			</div>
-		</div>
-		<div class="contact_wrap">
-			<a href="tel:010-9184-3360" class="bg1">
-				<img src="https://cdn4.iconfinder.com/data/icons/miu/24/device-iPhone-smartphone-vertical-glyph-128.png" alt="tel">엄마전화
-			</a>
-			<a href="tel:010-2811-1515" class="bg2">
-				<img src="https://cdn4.iconfinder.com/data/icons/miu/24/device-iPhone-smartphone-vertical-glyph-128.png" alt="tel">아빠전화
-			</a>
-		</div>
-		<div class="date_wrap">
-			<span>
-				<img src="https://cdn2.iconfinder.com/data/icons/office-38/24/office-40-128.png" alt="time" />초대일시 : 
-				<strong>2018년 09월 08일 오후 12시</strong>
-			</span>
-		</div>
-		<div class="addr_wrap">
-			<span>
-				<img src="https://cdn4.iconfinder.com/data/icons/miu/24/house-home-real_estate-property-glyph-128.png" alt="place" />초대장소 : 
-				<strong>롯데시티호텔구로 씨카페</strong> | 서울 구로구 디지털로 300 3층 (02-6210-1090)
-			</span>
-		</div>
-		<div class="map_wrap" id="map"></div>
-		<div class="tras_wrap">
-			<div>
-				<div class="what"><img src="https://cdn2.iconfinder.com/data/icons/vehicles-7/24/vehicles-04-128.png" alt="metro" />지하철</div>
-				<div class="is">구로디지털단지 3번 출구 도보 10분</div>
-			</div>
-			<div>
-				<div class="what"><img src="https://cdn2.iconfinder.com/data/icons/vehicles-7/24/vehicles-12-128.png" alt="metro" />버스</div>
-				<div class="is">구로09, 6004</div>
-			</div>
-		</div>
-		<div class="copy">
-			© Copyright 2018
 		</div>
 	</div>
 	
 	<script src="./js/jquery-3.2.1.slim.min.js"></script>
+	<script src="./js/popper.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
